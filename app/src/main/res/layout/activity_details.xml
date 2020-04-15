@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="viewmodel"
+            type="com.ronaktest.myapp.pixabayapp.viewmodels.PixabayImageViewModel"/>
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/activity_detail_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:imageUrl="@{viewmodel.highResImageUrl}"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/darker_gray"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/activity_detail_tags"
+                style="@style/PixabayImageTextTags"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{viewmodel.tags}"
+                tools:text="TEST - TEST - TEST"/>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

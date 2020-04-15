@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "787796087981",
+    "firebase_url": "https://beaming-theorem-245719.firebaseio.com",
+    "project_id": "beaming-theorem-245719",
+    "storage_bucket": "beaming-theorem-245719.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787796087981:android:7f98b665ce06773a4f2224",
+        "android_client_info": {
+          "package_name": "com.ronaktest.myapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787796087981-jvv7dgju6o1q7pgp9r6hikej3n02n86p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ronaktest.myapp",
+            "certificate_hash": "fc709dd67ca0f1eca506c54ad212e2452ae992ec"
+          }
+        },
+        {
+          "client_id": "787796087981-117dkre38bln5dl2hddqesk81hqug1ag.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKs2TkIOYdWVj-V-KLhol44-yBTK3DGUg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787796087981-117dkre38bln5dl2hddqesk81hqug1ag.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
